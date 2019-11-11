@@ -15,6 +15,7 @@ pub fn new() -> CurrentTemperature {
         max_value: Some(100 as f32),
         min_value: Some(0 as f32),
         step_value: Some(0.1 as f32),
+        value: 10.0,
         ..Default::default()
     })
 }
